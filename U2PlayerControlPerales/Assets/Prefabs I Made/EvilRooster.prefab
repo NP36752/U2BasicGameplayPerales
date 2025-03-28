@@ -849,6 +849,7 @@ GameObject:
   - component: {fileID: 2476667490032050940}
   - component: {fileID: 8359809253738476733}
   - component: {fileID: 3347474972470265895}
+  - component: {fileID: -2074746749535406064}
   m_Layer: 0
   m_Name: EvilRooster
   m_TagString: Untagged
@@ -946,6 +947,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 7.5662985, y: 17.396427, z: 22.334898}
   m_Center: {x: -0.27979922, y: 8.198207, z: -0.830152}
+--- !u!114 &-2074746749535406064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4156030638822879581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1a73472fc8aaa34996f1494338cf6d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Target: {fileID: 0}
 --- !u!1 &4633810157814709633
 GameObject:
   m_ObjectHideFlags: 0

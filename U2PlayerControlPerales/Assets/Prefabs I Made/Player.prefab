@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 2349327190337846820}
   - component: {fileID: 1799872773116057584}
   - component: {fileID: 3600298505331125678}
+  - component: {fileID: 4886122210165586107}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -105,8 +106,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontalInput: 0
+  verticalInput: 0
   speed: 10
   xRange: 20
+  zRangeTop: 15
+  zRangeBottom: 0
+  projectilePrefab: {fileID: 0}
 --- !u!54 &3600298505331125678
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -134,6 +139,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4886122210165586107
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676243435576083723}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1.2606983, z: 1}
+  m_Center: {x: 0, y: 0.63560176, z: 0}
 --- !u!1 &736852863961028128
 GameObject:
   m_ObjectHideFlags: 0
